@@ -1,0 +1,389 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ConvNet	../brain_torch.py	/^class ConvNet(nn.Module):$/;"	kind:class	line:38
+RNN	../brain_achal.py	/^def RNN(X, weights, biases):$/;"	kind:function	line:299
+RNN	../brain_typing_new.py	/^def RNN(X, weights, biases):$/;"	kind:function	line:254
+W_conv1	../brain_achal.py	/^W_conv1 = weight_variable([1,1, 1,2]) # patch 1*1, in size is 1, out size is 2$/;"	kind:variable	line:122
+W_conv1	../brain_typing_new.py	/^W_conv1 = weight_variable([1,1, 1,2]) # patch 1*1, in size is 1 filter, out size is 2 filters$/;"	kind:variable	line:111
+W_conv2	../brain_achal.py	/^W_conv2 = weight_variable([1,1, 2, 4]) # patch 1*1, in size 2, out size 4$/;"	kind:variable	line:136
+W_conv2	../brain_typing_new.py	/^W_conv2 = weight_variable([1,1,2,4]) # patch 1*1, in size 2, out size 4$/;"	kind:variable	line:119
+W_fc1	../brain_achal.py	/^W_fc1 = weight_variable([int(1*(n_fea)), 120])$/;"	kind:variable	line:143
+W_fc1	../brain_typing_new.py	/^W_fc1 = weight_variable([1*(n_fea\/4)*4,120])$/;"	kind:variable	line:126
+W_fc2	../brain_achal.py	/^W_fc2 = weight_variable([120, n_classes])$/;"	kind:variable	line:151
+W_fc2	../brain_typing_new.py	/^W_fc2 = weight_variable([120, n_classes])$/;"	kind:variable	line:133
+X	../brain_achal.py	/^X = tf.placeholder("float", [None, n_input_ae])$/;"	kind:variable	line:455
+X	../brain_typing_new.py	/^X = tf.placeholder("float", [None, n_input_ae])$/;"	kind:variable	line:398
+__init__	../brain_torch.py	/^    def __init__(self, num_classes=10):$/;"	kind:member	line:39
+a	../brain_achal.py	/^            a = sess1.run(encoder_op, feed_dict={X: a})$/;"	kind:variable	line:521
+a	../brain_achal.py	/^a=feature_training$/;"	kind:variable	line:210
+a	../brain_achal.py	/^a=feature_training$/;"	kind:variable	line:235
+a	../brain_achal.py	/^a=feature_training$/;"	kind:variable	line:431
+a	../brain_achal.py	/^a=feature_training$/;"	kind:variable	line:63
+a	../brain_typing_new.py	/^            a = sess1.run(encoder_op, feed_dict={X: a})$/;"	kind:variable	line:460
+a	../brain_typing_new.py	/^a = feature_training$/;"	kind:variable	line:55
+a	../brain_typing_new.py	/^a=feature_training$/;"	kind:variable	line:189
+a	../brain_typing_new.py	/^a=feature_training$/;"	kind:variable	line:379
+acc_cnn	../brain_achal.py	/^acc_cnn=compute_accuracy(b, label_testing)$/;"	kind:variable	line:174
+acc_cnn	../brain_typing_new.py	/^acc_cnn=compute_accuracy(b, label_testing)$/;"	kind:variable	line:162
+accuracy	../brain_achal.py	/^accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))$/;"	kind:variable	line:348
+accuracy	../brain_typing_new.py	/^accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))$/;"	kind:variable	line:302
+all	../brain_achal.py	/^all = feature['S1_nolabel6']$/;"	kind:variable	line:27
+all	../brain_achal.py	/^all=all[0:final]$/;"	kind:variable	line:35
+all	../brain_typing_new.py	/^all = feature['S1_nolabel6']$/;"	kind:variable	line:17
+all	../brain_typing_new.py	/^all=all[0:final]$/;"	kind:variable	line:26
+b	../brain_achal.py	/^            b = sess1.run(encoder_op, feed_dict={X: b})$/;"	kind:variable	line:522
+b	../brain_achal.py	/^b=feature_testing$/;"	kind:variable	line:211
+b	../brain_achal.py	/^b=feature_testing$/;"	kind:variable	line:236
+b	../brain_achal.py	/^b=feature_testing$/;"	kind:variable	line:432
+b	../brain_achal.py	/^b=feature_testing$/;"	kind:variable	line:64
+b	../brain_typing_new.py	/^            b = sess1.run(encoder_op, feed_dict={X: b})$/;"	kind:variable	line:462
+b	../brain_typing_new.py	/^b = feature_testing$/;"	kind:variable	line:56
+b	../brain_typing_new.py	/^b=feature_testing$/;"	kind:variable	line:190
+b	../brain_typing_new.py	/^b=feature_testing$/;"	kind:variable	line:380
+b_conv1	../brain_achal.py	/^b_conv1 = bias_variable([2])$/;"	kind:variable	line:124
+b_conv1	../brain_typing_new.py	/^b_conv1 = bias_variable([2])$/;"	kind:variable	line:113
+b_conv2	../brain_achal.py	/^b_conv2 = bias_variable([4])$/;"	kind:variable	line:137
+b_conv2	../brain_typing_new.py	/^b_conv2 = bias_variable([4])$/;"	kind:variable	line:120
+b_fc1	../brain_achal.py	/^b_fc1 = bias_variable([120])$/;"	kind:variable	line:144
+b_fc1	../brain_typing_new.py	/^b_fc1 = bias_variable([120])$/;"	kind:variable	line:127
+b_fc2	../brain_achal.py	/^b_fc2 = bias_variable([n_classes])$/;"	kind:variable	line:152
+b_fc2	../brain_typing_new.py	/^b_fc2 = bias_variable([n_classes])$/;"	kind:variable	line:134
+batch_size	../brain_achal.py	/^batch_size=final-middle_number$/;"	kind:variable	line:218
+batch_size	../brain_achal.py	/^batch_size=final-middle_number$/;"	kind:variable	line:243
+batch_size	../brain_achal.py	/^batch_size=final-middle_number$/;"	kind:variable	line:69
+batch_size	../brain_torch.py	/^                                           batch_size=batch_size, $/;"	kind:variable	line:30
+batch_size	../brain_torch.py	/^                                          batch_size=batch_size, $/;"	kind:variable	line:34
+batch_size	../brain_torch.py	/^batch_size = 100$/;"	kind:variable	line:15
+batch_size	../brain_typing_new.py	/^batch_size=final-middle_number$/;"	kind:variable	line:198
+batch_size	../brain_typing_new.py	/^batch_size=final-middle_number$/;"	kind:variable	line:59
+bias_variable	../brain_achal.py	/^def bias_variable(shape):$/;"	kind:function	line:98
+bias_variable	../brain_typing_new.py	/^def bias_variable(shape):$/;"	kind:function	line:90
+biases	../brain_achal.py	/^biases = {$/;"	kind:variable	line:287
+biases	../brain_achal.py	/^biases = {$/;"	kind:variable	line:462
+biases	../brain_typing_new.py	/^biases = {$/;"	kind:variable	line:242
+biases_ae	../brain_typing_new.py	/^biases_ae = {$/;"	kind:variable	line:405
+brain_achal.py	../brain_achal.py	1;"	kind:file	line:1
+brain_torch.py	../brain_torch.py	1;"	kind:file	line:1
+brain_typing_new.py	../brain_typing_new.py	1;"	kind:file	line:1
+bst	../brain_typing_new.py	/^bst = xgb.train(param, xg_train, num_round, watchlist );$/;"	kind:variable	line:493
+compute_accuracy	../brain_achal.py	/^def compute_accuracy(v_xs, v_ys):$/;"	kind:function	line:86
+compute_accuracy	../brain_typing_new.py	/^def compute_accuracy(v_xs, v_ys):$/;"	kind:function	line:76
+confusion_m	../brain_achal.py	/^    confusion_m=sess.run(confusion_m, feed_dict={$/;"	kind:variable	line:398
+confusion_m	../brain_achal.py	/^confusion_m=tf.confusion_matrix(tf.argmax(y, 1), tf.argmax(pred, 1))$/;"	kind:variable	line:349
+confusion_m	../brain_typing_new.py	/^    confusion_m=sess.run(confusion_m, feed_dict={$/;"	kind:variable	line:357
+confusion_m	../brain_typing_new.py	/^confusion_m=tf.confusion_matrix(tf.argmax(y, 1), tf.argmax(pred, 1))$/;"	kind:variable	line:303
+conv2d	../brain_achal.py	/^def conv2d(x, W):$/;"	kind:function	line:102
+conv2d	../brain_typing_new.py	/^def conv2d(x, W):$/;"	kind:function	line:95
+correct	../brain_torch.py	/^    correct = 0$/;"	kind:variable	line:89
+correct_pred	../brain_achal.py	/^correct_pred = tf.equal(tf.argmax(pred, 1), tf.argmax(y, 1))$/;"	kind:variable	line:347
+correct_pred	../brain_typing_new.py	/^correct_pred = tf.equal(tf.argmax(pred, 1), tf.argmax(y, 1))$/;"	kind:variable	line:301
+cost	../brain_achal.py	/^        cost = tf.reduce_mean(tf.pow(y_true - y_pred, 2))$/;"	kind:variable	line:497
+cost	../brain_achal.py	/^cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=pred, labels=y)) + l2  # Softmax loss$/;"	kind:variable	line:339
+cost	../brain_typing_new.py	/^        cost = tf.reduce_mean(tf.pow(y_true - y_pred, 2))$/;"	kind:variable	line:438
+cost	../brain_typing_new.py	/^cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=pred, labels=y)) + l2  # Softmax loss$/;"	kind:variable	line:294
+criterion	../brain_torch.py	/^criterion = nn.CrossEntropyLoss()$/;"	kind:variable	line:63
+cross_entropy	../brain_achal.py	/^cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=prediction, labels=ys))+l2   # Softmax loss$/;"	kind:variable	line:157
+cross_entropy	../brain_typing_new.py	/^cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=prediction, labels=ys))+l2   # Softmax loss$/;"	kind:variable	line:141
+decoder	../brain_achal.py	/^def decoder(x):$/;"	kind:function	line:479
+decoder	../brain_typing_new.py	/^def decoder(x):$/;"	kind:function	line:421
+decoder_op	../brain_achal.py	/^        decoder_op = decoder(encoder_op)$/;"	kind:variable	line:490
+decoder_op	../brain_typing_new.py	/^        decoder_op = decoder(encoder_op)$/;"	kind:variable	line:432
+device	../brain_torch.py	/^device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')$/;"	kind:variable	line:10
+display_step	../brain_achal.py	/^display_step = 10$/;"	kind:variable	line:443
+display_step	../brain_typing_new.py	/^display_step = 10$/;"	kind:variable	line:389
+download	../brain_torch.py	/^                                           download=True)$/;"	kind:variable	line:22
+encoder	../brain_achal.py	/^def encoder(x):$/;"	kind:function	line:471
+encoder	../brain_typing_new.py	/^def encoder(x):$/;"	kind:function	line:414
+encoder_op	../brain_achal.py	/^        encoder_op = encoder(X)$/;"	kind:variable	line:489
+encoder_op	../brain_typing_new.py	/^        encoder_op = encoder(X)$/;"	kind:variable	line:431
+f	../brain_achal.py	/^    f =a[(0+batch_size*i):(batch_size+batch_size*i)]$/;"	kind:variable	line:222
+f	../brain_achal.py	/^    f =a[(0+batch_size*i):(batch_size+batch_size*i)]$/;"	kind:variable	line:247
+f	../brain_achal.py	/^    f =a[(0+batch_size*i):(batch_size+batch_size*i)]$/;"	kind:variable	line:73
+f	../brain_achal.py	/^    f =label_training[(0+batch_size*i):(batch_size+batch_size*i), :]$/;"	kind:variable	line:228
+f	../brain_achal.py	/^    f =label_training[(0+batch_size*i):(batch_size+batch_size*i), :]$/;"	kind:variable	line:253
+f	../brain_achal.py	/^    f =label_training[(0+batch_size*i):(batch_size+batch_size*i), :]$/;"	kind:variable	line:79
+f	../brain_typing_new.py	/^    f =a[(0+batch_size*i):(batch_size+batch_size*i)]$/;"	kind:variable	line:202
+f	../brain_typing_new.py	/^    f =a[(0+batch_size*i):(batch_size+batch_size*i)]$/;"	kind:variable	line:63
+f	../brain_typing_new.py	/^    f =label_training[(0+batch_size*i):(batch_size+batch_size*i), :]$/;"	kind:variable	line:208
+f	../brain_typing_new.py	/^    f =label_training[(0+batch_size*i):(batch_size+batch_size*i), :]$/;"	kind:variable	line:69
+f2	../brain_achal.py	/^    f2 = open(filename, 'wb')$/;"	kind:variable	line:359
+f2	../brain_typing_new.py	/^    f2 = open(filename, 'wb')$/;"	kind:variable	line:315
+feature	../brain_achal.py	/^feature = sc.loadmat("S1_nolabel6.mat")$/;"	kind:variable	line:26
+feature	../brain_typing_new.py	/^feature = sc.loadmat(".\/S1_nolabel6.mat")$/;"	kind:variable	line:16
+feature_0	../brain_achal.py	/^        feature_0=np.vstack((feature_0,feature_11))$/;"	kind:variable	line:392
+feature_0	../brain_achal.py	/^    feature_0=sess.run(Feature, feed_dict={x: train_fea[0]})$/;"	kind:variable	line:389
+feature_0	../brain_typing_new.py	/^        feature_0=np.vstack((feature_0,feature_11))$/;"	kind:variable	line:351
+feature_0	../brain_typing_new.py	/^    feature_0=sess.run(Feature, feed_dict={x: train_fea[0]})$/;"	kind:variable	line:348
+feature_11	../brain_achal.py	/^        feature_11=sess.run(Feature, feed_dict={x: train_fea[i]})$/;"	kind:variable	line:391
+feature_11	../brain_typing_new.py	/^        feature_11=sess.run(Feature, feed_dict={x: train_fea[i]})$/;"	kind:variable	line:350
+feature_all	../brain_achal.py	/^feature_all =all[:,0:64]$/;"	kind:variable	line:36
+feature_all	../brain_achal.py	/^feature_all =feature_all.reshape([final,1,no_fea])$/;"	kind:variable	line:186
+feature_all	../brain_achal.py	/^feature_all =feature_all.reshape([final,1,no_fea])$/;"	kind:variable	line:200
+feature_all	../brain_achal.py	/^feature_all=feature_all# the input data of CNN$/;"	kind:variable	line:50
+feature_all	../brain_achal.py	/^feature_all=feature_all$/;"	kind:variable	line:183
+feature_all	../brain_achal.py	/^feature_all=feature_all$/;"	kind:variable	line:197
+feature_all	../brain_achal.py	/^feature_all=feature_all$/;"	kind:variable	line:436
+feature_all	../brain_achal.py	/^feature_all=np.hstack((feature_all_rnn,feature_all_cnn))$/;"	kind:variable	line:419
+feature_all	../brain_achal.py	/^feature_all=preprocessing.scale(feature_all)$/;"	kind:variable	line:40
+feature_all	../brain_typing_new.py	/^feature_all =all[:,0:64]$/;"	kind:variable	line:27
+feature_all	../brain_typing_new.py	/^feature_all =feature_all.reshape([final,1,no_fea])$/;"	kind:variable	line:177
+feature_all	../brain_typing_new.py	/^feature_all=feature_all# the input data of CNN$/;"	kind:variable	line:42
+feature_all	../brain_typing_new.py	/^feature_all=feature_all$/;"	kind:variable	line:174
+feature_all	../brain_typing_new.py	/^feature_all=feature_all$/;"	kind:variable	line:385
+feature_all	../brain_typing_new.py	/^feature_all=np.hstack((feature_all_rnn,feature_all_cnn))$/;"	kind:variable	line:368
+feature_all	../brain_typing_new.py	/^feature_all=preprocessing.scale(feature_all)$/;"	kind:variable	line:32
+feature_all_cnn	../brain_achal.py	/^feature_all_cnn=sess3.run(h_fc1_drop, feed_dict={xs: feature_all, keep_prob: keep})$/;"	kind:variable	line:176
+feature_all_cnn	../brain_typing_new.py	/^feature_all_cnn=sess3.run(h_fc1_drop, feed_dict={xs: feature_all, keep_prob: keep})$/;"	kind:variable	line:166
+feature_all_rnn	../brain_achal.py	/^    feature_all_rnn=np.vstack((feature_0,feature_b))$/;"	kind:variable	line:396
+feature_all_rnn	../brain_typing_new.py	/^    feature_all_rnn=np.vstack((feature_0,feature_b))$/;"	kind:variable	line:355
+feature_b	../brain_achal.py	/^    feature_b = sess.run(Feature, feed_dict={x: b})$/;"	kind:variable	line:395
+feature_b	../brain_typing_new.py	/^    feature_b = sess.run(Feature, feed_dict={x: b})$/;"	kind:variable	line:354
+feature_testing	../brain_achal.py	/^feature_testing =feature_all[middle_number:final]$/;"	kind:variable	line:206
+feature_testing	../brain_achal.py	/^feature_testing =feature_all[middle_number:final]$/;"	kind:variable	line:231
+feature_testing	../brain_achal.py	/^feature_testing =feature_all[middle_number:final]$/;"	kind:variable	line:427
+feature_testing	../brain_achal.py	/^feature_testing =feature_all[middle_number:final]$/;"	kind:variable	line:58
+feature_testing	../brain_typing_new.py	/^feature_testing =feature_all[middle_number:final]$/;"	kind:variable	line:186
+feature_testing	../brain_typing_new.py	/^feature_testing =feature_all[middle_number:final]$/;"	kind:variable	line:376
+feature_testing	../brain_typing_new.py	/^feature_testing =feature_all[middle_number:final]$/;"	kind:variable	line:50
+feature_training	../brain_achal.py	/^feature_training =feature_all[0:middle_number]$/;"	kind:variable	line:205
+feature_training	../brain_achal.py	/^feature_training =feature_all[0:middle_number]$/;"	kind:variable	line:230
+feature_training	../brain_achal.py	/^feature_training =feature_all[0:middle_number]$/;"	kind:variable	line:426
+feature_training	../brain_achal.py	/^feature_training =feature_all[0:middle_number]$/;"	kind:variable	line:57
+feature_training	../brain_typing_new.py	/^feature_training =feature_all[0:middle_number]$/;"	kind:variable	line:185
+feature_training	../brain_typing_new.py	/^feature_training =feature_all[0:middle_number]$/;"	kind:variable	line:375
+feature_training	../brain_typing_new.py	/^feature_training =feature_all[0:middle_number]$/;"	kind:variable	line:49
+filename	../brain_achal.py	/^    filename = "rnn_acc.csv"$/;"	kind:variable	line:358
+filename	../brain_typing_new.py	/^    filename = ".\/rnn_out.csv"$/;"	kind:variable	line:314
+final	../brain_achal.py	/^final=2800*10$/;"	kind:variable	line:34
+final	../brain_achal.py	/^final=all.shape[0]$/;"	kind:variable	line:55
+final	../brain_typing_new.py	/^final=2800*10 #Total number of datapoints to take$/;"	kind:variable	line:25
+final	../brain_typing_new.py	/^final=all.shape[0]$/;"	kind:variable	line:47
+forward	../brain_torch.py	/^    def forward(self, x):$/;"	kind:member	line:53
+group	../brain_achal.py	/^group=3$/;"	kind:variable	line:442
+group	../brain_typing_new.py	/^group=3$/;"	kind:variable	line:388
+h_conv1	../brain_achal.py	/^h_conv1 = tf.nn.relu(conv2d(x_image, W_conv1) + b_conv1) # output size 1*64*2$/;"	kind:variable	line:125
+h_conv1	../brain_typing_new.py	/^h_conv1 = tf.nn.relu(conv2d(x_image, W_conv1) + b_conv1) # output size 1*64*2$/;"	kind:variable	line:114
+h_conv2	../brain_achal.py	/^h_conv2 = tf.nn.relu(conv2d(h_pool1, W_conv2) + b_conv2) # output size 1*32*4$/;"	kind:variable	line:138
+h_conv2	../brain_typing_new.py	/^h_conv2 = tf.nn.relu(conv2d(h_pool1, W_conv2) + b_conv2) # output size 1*32*4$/;"	kind:variable	line:121
+h_fc1	../brain_achal.py	/^h_fc1 = tf.nn.sigmoid(tf.matmul(h_pool2_flat, W_fc1) + b_fc1)$/;"	kind:variable	line:147
+h_fc1	../brain_typing_new.py	/^h_fc1 = tf.nn.sigmoid(tf.matmul(h_pool2_flat, W_fc1) + b_fc1)$/;"	kind:variable	line:129
+h_fc1_drop	../brain_achal.py	/^h_fc1_drop = tf.nn.dropout(h_fc1, keep_prob)$/;"	kind:variable	line:148
+h_fc1_drop	../brain_typing_new.py	/^h_fc1_drop = tf.nn.dropout(h_fc1, keep_prob)$/;"	kind:variable	line:130
+h_pool1	../brain_achal.py	/^h_pool1 = max_pool_1x2(h_conv1)                          # output size 1*32x2$/;"	kind:variable	line:126
+h_pool1	../brain_typing_new.py	/^h_pool1 = max_pool_1x2(h_conv1)                          # output size 1*32x2$/;"	kind:variable	line:115
+h_pool2	../brain_achal.py	/^h_pool2 = max_pool_1x2(h_conv2)                          # output size 1*16*4$/;"	kind:variable	line:139
+h_pool2	../brain_typing_new.py	/^h_pool2 = max_pool_1x2(h_conv2)                          # output size 1*16*4$/;"	kind:variable	line:122
+h_pool2_flat	../brain_achal.py	/^h_pool2_flat = tf.reshape(h_pool2, [-1,int(1*(n_fea))])$/;"	kind:variable	line:146
+h_pool2_flat	../brain_typing_new.py	/^h_pool2_flat = tf.reshape(h_pool2, [-1, 1*(n_fea\/4)*4])$/;"	kind:variable	line:128
+hh	../brain_achal.py	/^            hh=sess.run(accuracy, feed_dict={$/;"	kind:variable	line:376
+hh	../brain_typing_new.py	/^            hh=sess.run(accuracy, feed_dict={$/;"	kind:variable	line:334
+init	../brain_achal.py	/^        init = tf.global_variables_initializer()$/;"	kind:variable	line:354
+init	../brain_achal.py	/^        init = tf.global_variables_initializer()$/;"	kind:variable	line:502
+init	../brain_achal.py	/^        init = tf.initialize_all_variables()$/;"	kind:variable	line:352
+init	../brain_achal.py	/^init = tf.global_variables_initializer()$/;"	kind:variable	line:161
+init	../brain_typing_new.py	/^        init = tf.global_variables_initializer()$/;"	kind:variable	line:309
+init	../brain_typing_new.py	/^        init = tf.global_variables_initializer()$/;"	kind:variable	line:442
+init	../brain_typing_new.py	/^        init = tf.initialize_all_variables()$/;"	kind:variable	line:307
+init	../brain_typing_new.py	/^init = tf.global_variables_initializer()$/;"	kind:variable	line:145
+keep	../brain_achal.py	/^keep=1$/;"	kind:variable	line:68
+keep	../brain_typing_new.py	/^keep=1$/;"	kind:variable	line:58
+keep_prob	../brain_achal.py	/^keep_prob = tf.placeholder(tf.float32)$/;"	kind:variable	line:117
+keep_prob	../brain_typing_new.py	/^keep_prob = tf.placeholder(tf.float32)$/;"	kind:variable	line:106
+l2	../brain_achal.py	/^l2 = 0.001 * sum(tf.nn.l2_loss(tf_var) for tf_var in tf.trainable_variables())$/;"	kind:variable	line:156
+l2	../brain_achal.py	/^l2 = lamena * sum(tf.nn.l2_loss(tf_var) for tf_var in tf.trainable_variables())  # L2 loss prevents this overkill neural network to overfit the data$/;"	kind:variable	line:338
+l2	../brain_typing_new.py	/^l2 = 0.001 * sum(tf.nn.l2_loss(tf_var) for tf_var in tf.trainable_variables())$/;"	kind:variable	line:140
+l2	../brain_typing_new.py	/^l2 = lamena * sum(tf.nn.l2_loss(tf_var) for tf_var in tf.trainable_variables())  # L2 loss prevents this overkill neural network to overfit the data$/;"	kind:variable	line:293
+label	../brain_achal.py	/^label=all[:,64:65]$/;"	kind:variable	line:37
+label	../brain_typing_new.py	/^label=all[:,64:65]$/;"	kind:variable	line:28
+label_all	../brain_achal.py	/^label_all=one_hot(label)$/;"	kind:variable	line:44
+label_all	../brain_typing_new.py	/^label_all=one_hot(label)$/;"	kind:variable	line:35
+label_testing	../brain_achal.py	/^label_testing =label_all[middle_number:final]$/;"	kind:variable	line:208
+label_testing	../brain_achal.py	/^label_testing =label_all[middle_number:final]$/;"	kind:variable	line:233
+label_testing	../brain_achal.py	/^label_testing =label_all[middle_number:final]$/;"	kind:variable	line:429
+label_testing	../brain_achal.py	/^label_testing =label_all[middle_number:final]$/;"	kind:variable	line:60
+label_testing	../brain_typing_new.py	/^label_testing =label_all[middle_number:final]$/;"	kind:variable	line:188
+label_testing	../brain_typing_new.py	/^label_testing =label_all[middle_number:final]$/;"	kind:variable	line:378
+label_testing	../brain_typing_new.py	/^label_testing =label_all[middle_number:final]$/;"	kind:variable	line:52
+label_training	../brain_achal.py	/^label_training =label_all[0:middle_number]$/;"	kind:variable	line:207
+label_training	../brain_achal.py	/^label_training =label_all[0:middle_number]$/;"	kind:variable	line:232
+label_training	../brain_achal.py	/^label_training =label_all[0:middle_number]$/;"	kind:variable	line:428
+label_training	../brain_achal.py	/^label_training =label_all[0:middle_number]$/;"	kind:variable	line:59
+label_training	../brain_typing_new.py	/^label_training =label_all[0:middle_number]$/;"	kind:variable	line:187
+label_training	../brain_typing_new.py	/^label_training =label_all[0:middle_number]$/;"	kind:variable	line:377
+label_training	../brain_typing_new.py	/^label_training =label_all[0:middle_number]$/;"	kind:variable	line:51
+label_true	../brain_achal.py	/^label_true =tf.argmax(y, 1)$/;"	kind:variable	line:346
+label_true	../brain_typing_new.py	/^label_true =tf.argmax(y, 1)$/;"	kind:variable	line:300
+label_ww	../brain_achal.py	/^label_ww=label_all[middle_number:final]  # for the confusion matrix$/;"	kind:variable	line:61
+label_ww	../brain_typing_new.py	/^label_ww=label_all[middle_number:final]  # for the confusion matrix$/;"	kind:variable	line:53
+lameda	../brain_achal.py	/^lameda=0.004$/;"	kind:variable	line:215
+lameda	../brain_achal.py	/^lameda=0.004$/;"	kind:variable	line:240
+lameda	../brain_typing_new.py	/^lameda=0.004$/;"	kind:variable	line:194
+lamena	../brain_achal.py	/^lamena =lameda$/;"	kind:variable	line:337
+lamena	../brain_typing_new.py	/^lamena =lameda$/;"	kind:variable	line:292
+learning_rate	../brain_achal.py	/^    learning_rate = 0.2$/;"	kind:variable	line:486
+learning_rate	../brain_torch.py	/^learning_rate = 0.001$/;"	kind:variable	line:16
+learning_rate	../brain_typing_new.py	/^    learning_rate = 0.2$/;"	kind:variable	line:428
+lr	../brain_achal.py	/^lr=0.005$/;"	kind:variable	line:216
+lr	../brain_achal.py	/^lr=0.005$/;"	kind:variable	line:241
+lr	../brain_typing_new.py	/^lr=0.005$/;"	kind:variable	line:195
+max_pool_1x2	../brain_achal.py	/^def max_pool_1x2(x):$/;"	kind:function	line:110
+max_pool_1x2	../brain_typing_new.py	/^def max_pool_1x2(x):$/;"	kind:function	line:99
+middle_number	../brain_achal.py	/^middle_number=int(final*3\/4)$/;"	kind:variable	line:56
+middle_number	../brain_typing_new.py	/^middle_number=final*3\/4$/;"	kind:variable	line:48
+model	../brain_torch.py	/^model = ConvNet(num_classes).to(device)$/;"	kind:variable	line:60
+n_classes	../brain_achal.py	/^n_classes = n_classes$/;"	kind:variable	line:266
+n_classes	../brain_achal.py	/^n_classes=6$/;"	kind:variable	line:48
+n_classes	../brain_typing_new.py	/^n_classes = n_classes$/;"	kind:variable	line:221
+n_classes	../brain_typing_new.py	/^n_classes=6$/;"	kind:variable	line:36
+n_fea	../brain_achal.py	/^n_fea=feature_all.shape[-1]$/;"	kind:variable	line:52
+n_fea	../brain_typing_new.py	/^n_fea=feature_all.shape[-1]$/;"	kind:variable	line:44
+n_group	../brain_achal.py	/^n_group=3$/;"	kind:variable	line:220
+n_group	../brain_achal.py	/^n_group=3$/;"	kind:variable	line:245
+n_group	../brain_achal.py	/^n_group=3$/;"	kind:variable	line:70
+n_group	../brain_typing_new.py	/^n_group=3$/;"	kind:variable	line:200
+n_group	../brain_typing_new.py	/^n_group=3$/;"	kind:variable	line:60
+n_hidden1_units	../brain_achal.py	/^n_hidden1_units = nodes   # neurons in hidden layer$/;"	kind:variable	line:262
+n_hidden1_units	../brain_typing_new.py	/^n_hidden1_units = nodes   # neurons in hidden layer$/;"	kind:variable	line:217
+n_hidden2_units	../brain_achal.py	/^n_hidden2_units = nodes$/;"	kind:variable	line:263
+n_hidden2_units	../brain_typing_new.py	/^n_hidden2_units = nodes$/;"	kind:variable	line:218
+n_hidden3_units	../brain_achal.py	/^n_hidden3_units = nodes$/;"	kind:variable	line:264
+n_hidden3_units	../brain_typing_new.py	/^n_hidden3_units = nodes$/;"	kind:variable	line:219
+n_hidden4_units	../brain_achal.py	/^n_hidden4_units=nodes$/;"	kind:variable	line:265
+n_hidden4_units	../brain_typing_new.py	/^n_hidden4_units=nodes$/;"	kind:variable	line:220
+n_hidden_1	../brain_achal.py	/^n_hidden_1 = 800# 1st layer num features, should be times of 8$/;"	kind:variable	line:447
+n_hidden_1	../brain_typing_new.py	/^n_hidden_1 = 800  $/;"	kind:variable	line:393
+n_hidden_2	../brain_achal.py	/^n_hidden_2=100$/;"	kind:variable	line:450
+n_hidden_2	../brain_typing_new.py	/^n_hidden_2=100$/;"	kind:variable	line:394
+n_input_ae	../brain_achal.py	/^n_input_ae = no_fea # MNIST data input (img shape: 28*28)$/;"	kind:variable	line:452
+n_input_ae	../brain_typing_new.py	/^n_input_ae = no_fea $/;"	kind:variable	line:395
+n_inputs	../brain_achal.py	/^n_inputs = no_fea$/;"	kind:variable	line:260
+n_inputs	../brain_typing_new.py	/^n_inputs = no_fea$/;"	kind:variable	line:215
+n_steps	../brain_achal.py	/^n_steps = 1 # time steps$/;"	kind:variable	line:261
+n_steps	../brain_typing_new.py	/^n_steps = 1 # time steps$/;"	kind:variable	line:216
+nn	../brain_torch.py	/^import torch.nn as nn$/;"	kind:namespace	line:2
+no_fea	../brain_achal.py	/^no_fea=feature_all.shape[-1]$/;"	kind:variable	line:184
+no_fea	../brain_achal.py	/^no_fea=feature_all.shape[-1]$/;"	kind:variable	line:198
+no_fea	../brain_achal.py	/^no_fea=feature_all.shape[-1]$/;"	kind:variable	line:41
+no_fea	../brain_achal.py	/^no_fea=feature_all.shape[-1]$/;"	kind:variable	line:420
+no_fea	../brain_typing_new.py	/^no_fea=feature_all.shape[-1]$/;"	kind:variable	line:175
+no_fea	../brain_typing_new.py	/^no_fea=feature_all.shape[-1]$/;"	kind:variable	line:33
+no_fea	../brain_typing_new.py	/^no_fea=feature_all.shape[-1]$/;"	kind:variable	line:369
+nodes	../brain_achal.py	/^nodes=264$/;"	kind:variable	line:214
+nodes	../brain_achal.py	/^nodes=264$/;"	kind:variable	line:239
+nodes	../brain_typing_new.py	/^nodes=264$/;"	kind:variable	line:193
+np	../brain_achal.py	/^import numpy as np$/;"	kind:namespace	line:3
+np	../brain_typing_new.py	/^import numpy as np$/;"	kind:namespace	line:3
+num_classes	../brain_torch.py	/^num_classes = 10$/;"	kind:variable	line:14
+num_epochs	../brain_torch.py	/^num_epochs = 5$/;"	kind:variable	line:13
+num_round	../brain_typing_new.py	/^num_round = 500$/;"	kind:variable	line:492
+one_hot	../brain_achal.py	/^def one_hot(y_):$/;"	kind:function	line:15
+one_hot	../brain_typing_new.py	/^def one_hot(y_):$/;"	kind:function	line:10
+optimizer	../brain_achal.py	/^        optimizer = tf.train.RMSPropOptimizer(learning_rate).minimize(cost)$/;"	kind:variable	line:499
+optimizer	../brain_torch.py	/^optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)$/;"	kind:variable	line:64
+optimizer	../brain_typing_new.py	/^        optimizer = tf.train.RMSPropOptimizer(learning_rate).minimize(cost)$/;"	kind:variable	line:439
+param	../brain_typing_new.py	/^param = {}$/;"	kind:variable	line:474
+pred	../brain_typing_new.py	/^pred = bst.predict(xg_test);$/;"	kind:variable	line:495
+prediction	../brain_achal.py	/^prediction = tf.matmul(h_fc1_drop, W_fc2) + b_fc2$/;"	kind:variable	line:153
+prediction	../brain_typing_new.py	/^prediction = tf.matmul(h_fc1_drop, W_fc2) + b_fc2$/;"	kind:variable	line:135
+preprocessing	../brain_achal.py	/^from sklearn import preprocessing$/;"	kind:namespace	line:7
+preprocessing	../brain_typing_new.py	/^from sklearn import preprocessing$/;"	kind:namespace	line:7
+random	../brain_achal.py	/^import random$/;"	kind:namespace	line:4
+random	../brain_typing_new.py	/^import random$/;"	kind:namespace	line:4
+saver	../brain_achal.py	/^            saver = tf.train.Saver()$/;"	kind:variable	line:508
+saver	../brain_achal.py	/^        saver = tf.train.Saver()$/;"	kind:variable	line:505
+saver	../brain_achal.py	/^    saver = tf.train.Saver()$/;"	kind:variable	line:356
+sc	../brain_achal.py	/^import scipy.io as sc$/;"	kind:namespace	line:2
+sc	../brain_typing_new.py	/^import scipy.io as sc$/;"	kind:namespace	line:2
+scipy	../brain_achal.py	/^import scipy.io as sc$/;"	kind:namespace	line:2
+scipy	../brain_typing_new.py	/^import scipy.io as sc$/;"	kind:namespace	line:2
+sess3	../brain_achal.py	/^sess3 = tf.Session()$/;"	kind:variable	line:160
+sess3	../brain_typing_new.py	/^sess3 = tf.Session()$/;"	kind:variable	line:144
+shuffle	../brain_torch.py	/^                                           shuffle=True)$/;"	kind:variable	line:31
+shuffle	../brain_torch.py	/^                                          shuffle=False)$/;"	kind:variable	line:35
+step	../brain_achal.py	/^    step = 0$/;"	kind:variable	line:357
+step	../brain_achal.py	/^step = 1$/;"	kind:variable	line:165
+step	../brain_typing_new.py	/^    step = 0$/;"	kind:variable	line:312
+step	../brain_typing_new.py	/^step = 1$/;"	kind:variable	line:150
+sys	../brain_achal.py	/^import sys$/;"	kind:namespace	line:5
+sys	../brain_typing_new.py	/^import sys$/;"	kind:namespace	line:5
+test_dataset	../brain_torch.py	/^test_dataset = torchvision.datasets.MNIST(root='..\/..\/data\/',$/;"	kind:variable	line:24
+test_loader	../brain_torch.py	/^test_loader = torch.utils.data.DataLoader(dataset=test_dataset,$/;"	kind:variable	line:33
+tf	../brain_achal.py	/^import tensorflow as tf$/;"	kind:namespace	line:1
+tf	../brain_typing_new.py	/^import tensorflow as tf$/;"	kind:namespace	line:1
+time	../brain_achal.py	/^import time$/;"	kind:namespace	line:6
+time	../brain_typing_new.py	/^import time$/;"	kind:namespace	line:6
+time2	../brain_achal.py	/^time2=time.clock()$/;"	kind:variable	line:175
+time2	../brain_typing_new.py	/^time2=time.clock()$/;"	kind:variable	line:163
+time3	../brain_achal.py	/^time3=time.clock()$/;"	kind:variable	line:179
+time3	../brain_achal.py	/^time3=time.clock()$/;"	kind:variable	line:193
+time3	../brain_typing_new.py	/^time3=time.clock()$/;"	kind:variable	line:169
+time4	../brain_achal.py	/^    time4 = time.clock()$/;"	kind:variable	line:388
+time4	../brain_typing_new.py	/^    time4 = time.clock()$/;"	kind:variable	line:347
+time5	../brain_achal.py	/^    time5 = time.clock()$/;"	kind:variable	line:403
+time5	../brain_typing_new.py	/^    time5 = time.clock()$/;"	kind:variable	line:362
+time6	../brain_achal.py	/^            time6=time.clock()$/;"	kind:variable	line:520
+time6	../brain_typing_new.py	/^            time6=time.clock()$/;"	kind:variable	line:459
+time7	../brain_achal.py	/^time7=time.clock()$/;"	kind:variable	line:524
+time7	../brain_typing_new.py	/^time7=time.clock()$/;"	kind:variable	line:464
+time8	../brain_typing_new.py	/^time8=time.clock()$/;"	kind:variable	line:494
+time9	../brain_typing_new.py	/^time9=time.clock()$/;"	kind:variable	line:498
+torch	../brain_torch.py	/^import torch $/;"	kind:namespace	line:1
+torch	../brain_torch.py	/^import torch.nn as nn$/;"	kind:namespace	line:2
+torchvision	../brain_torch.py	/^import torchvision$/;"	kind:namespace	line:3
+torchvision	../brain_torch.py	/^import torchvision.transforms as transforms$/;"	kind:namespace	line:4
+total	../brain_torch.py	/^    total = 0$/;"	kind:variable	line:90
+total_step	../brain_torch.py	/^total_step = len(train_loader)$/;"	kind:variable	line:67
+train	../brain_torch.py	/^                                           train=True, $/;"	kind:variable	line:20
+train	../brain_torch.py	/^                                          train=False, $/;"	kind:variable	line:25
+train_dataset	../brain_torch.py	/^train_dataset = torchvision.datasets.MNIST(root='..\/..\/data\/',$/;"	kind:variable	line:19
+train_fea	../brain_achal.py	/^train_fea=[]$/;"	kind:variable	line:219
+train_fea	../brain_achal.py	/^train_fea=[]$/;"	kind:variable	line:244
+train_fea	../brain_achal.py	/^train_fea=[]$/;"	kind:variable	line:71
+train_fea	../brain_achal.py	/^train_fea=feature_all[0:middle_number]$/;"	kind:variable	line:439
+train_fea	../brain_typing_new.py	/^train_fea=[]$/;"	kind:variable	line:199
+train_fea	../brain_typing_new.py	/^train_fea=[]$/;"	kind:variable	line:61
+train_fea	../brain_typing_new.py	/^train_fea=feature_all[0:middle_number]$/;"	kind:variable	line:386
+train_label	../brain_achal.py	/^train_label=[]$/;"	kind:variable	line:226
+train_label	../brain_achal.py	/^train_label=[]$/;"	kind:variable	line:251
+train_label	../brain_achal.py	/^train_label=[]$/;"	kind:variable	line:77
+train_label	../brain_typing_new.py	/^train_label=[]$/;"	kind:variable	line:206
+train_label	../brain_typing_new.py	/^train_label=[]$/;"	kind:variable	line:67
+train_loader	../brain_torch.py	/^train_loader = torch.utils.data.DataLoader(dataset=train_dataset,$/;"	kind:variable	line:29
+train_op	../brain_achal.py	/^train_op = tf.train.AdamOptimizer(lr).minimize(cost)$/;"	kind:variable	line:340
+train_op	../brain_typing_new.py	/^train_op = tf.train.AdamOptimizer(lr).minimize(cost)$/;"	kind:variable	line:295
+train_step	../brain_achal.py	/^train_step = tf.train.AdamOptimizer(0.04).minimize(cross_entropy) # learning rate is 0.0001$/;"	kind:variable	line:158
+train_step	../brain_typing_new.py	/^train_step = tf.train.AdamOptimizer(0.04).minimize(cross_entropy) # learning rate is 0.0001$/;"	kind:variable	line:142
+training_epochs	../brain_achal.py	/^training_epochs = 400$/;"	kind:variable	line:444
+training_epochs	../brain_typing_new.py	/^training_epochs = 400$/;"	kind:variable	line:390
+transform	../brain_torch.py	/^                                           transform=transforms.ToTensor(),$/;"	kind:variable	line:21
+transform	../brain_torch.py	/^                                          transform=transforms.ToTensor())$/;"	kind:variable	line:26
+transforms	../brain_torch.py	/^import torchvision.transforms as transforms$/;"	kind:namespace	line:4
+watchlist	../brain_typing_new.py	/^watchlist = [ (xg_train,'train'), (xg_test, 'test') ]$/;"	kind:variable	line:491
+weight_variable	../brain_achal.py	/^def weight_variable(shape):$/;"	kind:function	line:94
+weight_variable	../brain_typing_new.py	/^def weight_variable(shape):$/;"	kind:function	line:85
+weights	../brain_achal.py	/^weights = {$/;"	kind:variable	line:275
+weights	../brain_achal.py	/^weights = {$/;"	kind:variable	line:456
+weights	../brain_typing_new.py	/^weights = {$/;"	kind:variable	line:230
+weights_ae	../brain_typing_new.py	/^weights_ae = {$/;"	kind:variable	line:399
+x	../brain_achal.py	/^x = tf.placeholder(tf.float32, [None, n_steps, n_inputs])$/;"	kind:variable	line:270
+x	../brain_typing_new.py	/^x = tf.placeholder(tf.float32, [None, n_steps, n_inputs])$/;"	kind:variable	line:225
+x_image	../brain_achal.py	/^x_image = tf.reshape(xs, [-1, 1, n_fea, 1])$/;"	kind:variable	line:118
+x_image	../brain_typing_new.py	/^x_image = tf.reshape(xs, [-1, 1, n_fea, 1]) # Convert into 4D tensor$/;"	kind:variable	line:107
+xg_test	../brain_typing_new.py	/^xg_test = xgb.DMatrix(b, label=np.argmax(label_testing,1))$/;"	kind:variable	line:472
+xg_train	../brain_typing_new.py	/^xg_train = xgb.DMatrix(a, label=np.argmax(label_training,1))$/;"	kind:variable	line:471
+xgb	../brain_achal.py	/^import xgboost as xgb$/;"	kind:namespace	line:530
+xgb	../brain_typing_new.py	/^import xgboost as xgb$/;"	kind:namespace	line:470
+xs	../brain_achal.py	/^xs = tf.placeholder(tf.float32, [None, n_fea]) # 1*64$/;"	kind:variable	line:115
+xs	../brain_typing_new.py	/^xs = tf.placeholder(tf.float32, [None, n_fea]) # Input Tensor$/;"	kind:variable	line:104
+y	../brain_achal.py	/^y = tf.placeholder(tf.float32, [None, n_classes])$/;"	kind:variable	line:271
+y	../brain_typing_new.py	/^y = tf.placeholder(tf.float32, [None, n_classes])$/;"	kind:variable	line:226
+y_pred	../brain_achal.py	/^        y_pred = decoder_op$/;"	kind:variable	line:492
+y_pred	../brain_typing_new.py	/^        y_pred = decoder_op$/;"	kind:variable	line:434
+y_true	../brain_achal.py	/^        y_true = X$/;"	kind:variable	line:494
+y_true	../brain_typing_new.py	/^        y_true = X$/;"	kind:variable	line:436
+ys	../brain_achal.py	/^ys = tf.placeholder(tf.float32, [None, n_classes])  # 2 is the classes of the data$/;"	kind:variable	line:116
+ys	../brain_typing_new.py	/^ys = tf.placeholder(tf.float32, [None, n_classes])  # Output Tensor$/;"	kind:variable	line:105
